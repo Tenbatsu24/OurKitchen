@@ -1,0 +1,33 @@
+{
+  "name": "ourkitchen",
+  "version": "1.0.0",
+  "description": "A Kitchen App for families",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Kitchen",
+    "node",
+    "pg",
+    "express",
+    "vue",
+    "axios"
+  ],
+  "author": "Puru Vaish",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "mongodb": "^3.6.2",
+    "pg": "^8.4.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.5"
+  }
+}
